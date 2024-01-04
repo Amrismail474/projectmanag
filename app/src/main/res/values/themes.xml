@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Projectmanag" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Projectmanag" parent="Base.Theme.Projectmanag" />
+
+    <style name="Base.Theme.Projectmanag.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Customtoolbarstyle" parent="@style/Theme.AppCompat.Light.NoActionBar">
+         <item name="android:textColorPrimary">#000000</item>
+        <item name="android:colorControlNormal">#000000</item>
+    </style>
+    
+</resources>

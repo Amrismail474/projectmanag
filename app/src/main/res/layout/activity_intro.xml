@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.IntroActivity">
+
+    <TextView
+        android:id="@+id/tvIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Projemanag"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#0C90F1"
+        android:padding="30dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/ivIntro"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvIntro"
+        android:src="@drawable/ic_task_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvLgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Let's Get Started"
+        android:textSize="30sp"
+        android:paddingTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivIntro"/>
+
+    <TextView
+        android:id="@+id/tvAlgs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/Alfg"
+        android:textSize="12sp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLgs"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "SIGN IN"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:background="@drawable/signin_back"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAlgs"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "SIGN UP"
+        android:gravity="center"
+        android:foreground="?attr/selectableItemBackground"
+        android:textSize="12sp"
+        android:textColor="#79BAEC"
+        android:background="@drawable/sigup_back"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignin"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Projectmanag</string>
+    <string name="Alfg">Collaborate And Plan Together Across Multiple\n Devices on Projemanag\'s Minimalist Interface</string>
+    <string name="signup_words">Enter your name, email id and password to register with us</string>
+    <string name="signin_words">Enter your email id and password to login</string>
+
+</resources>

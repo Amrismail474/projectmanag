@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "697206926280",
+    "firebase_url": "https://projectmanag-24e24-default-rtdb.firebaseio.com",
+    "project_id": "projectmanag-24e24",
+    "storage_bucket": "projectmanag-24e24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697206926280:android:94e888b431b3d163252efd",
+        "android_client_info": {
+          "package_name": "com.asi.projectmanag"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgwwBPqgKtfhU5DyvTLNVT94iGmOCtbyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
